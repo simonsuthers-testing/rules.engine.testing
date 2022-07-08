@@ -13,6 +13,8 @@ openpyxl = "^3.0.10"
 pandas = "^1.4.3"
 sklearn = "^0.0"
 durable-rules = "^2.0.28"
+re-data = "^0.9.2"
+clipspy = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 
