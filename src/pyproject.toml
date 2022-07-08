@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "rules.engine.testing"
+version = "0.1.0"
+description = ""
+authors = ["Simon Suthers <simonsuthers@yahoo.co.uk>"]
+
+[tool.poetry.dependencies]
+python = " >=3.8,<3.11"
+numpy = "^1.23.0"
+scipy = "^1.8.1"
+scikit-learn = "^1.1.1"
+openpyxl = "^3.0.10"
+pandas = "^1.4.3"
+sklearn = "^0.0"
+durable-rules = "^2.0.28"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
